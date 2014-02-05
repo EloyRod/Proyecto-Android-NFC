@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+   android:background="@drawable/degradado">
+    
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1">
+        
+        <ListView 
+    	android:id="@+id/ListView_listado"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+		</ListView>
+             
+                
+    	<TextView
+    	    android:id="@+id/empty"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="fill_parent"
+    	    android:layout_gravity="center"/>
+    		
+    </FrameLayout>
+   <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:layout_gravity="center_horizontal"
+    android:gravity="center">
+        
+    <Button android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nuevaconf"
+        android:onClick="lanzarNuevaconf"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:drawableLeft="@drawable/anadir" />
+    
+     <Button android:id="@+id/leer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/guardartag"
+        android:onClick="lanzarTag"
+        android:layout_toRightOf="@id/add"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:drawableLeft="@drawable/nfc"/>
+
+   </LinearLayout> 
+    
+</LinearLayout>

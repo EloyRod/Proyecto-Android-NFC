@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/degradado"
+    android:padding="20px"
+    android:layout_weight="2">
+    
+    <TextView
+        android:id="@+id/textGrab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:text="@string/textoTag2" 
+        android:textSize ="18sp"/>
+    
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1">
+
+    	
+    	<ImageView android:id="@+id/icono_tag"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_alignParentLeft="true"
+        	android:src="@drawable/nuevo_tag"/>
+    		
+    </FrameLayout>
+    <RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:gravity="center"
+    >
+        
+    <Button android:id="@+id/borrartag"
+      	android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/borrartag"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:onClick="lanzarnuevaetiqueta"
+        android:drawableLeft="@drawable/papelera"/>
+    
+     <Button android:id="@+id/Volvertag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/leertag"
+        android:layout_toRightOf="@id/borrartag"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:onClick="lanzarVolver"
+        android:drawableLeft="@drawable/volver"/>
+     </RelativeLayout>
+    
+</LinearLayout>

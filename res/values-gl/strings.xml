@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gestion de CPM</string>
+    <string name="nuevaconf">Engadir</string>
+    <string name="guardartag">Mapeo</string>
+    <string name="guardartag2">Gardar</string>
+    <string name="escribir">Escribir</string>
+    <string name="siguiente">Seguinte</string>
+    <string name="borrar">Eliminar</string>
+    <string name="volver">Retorno</string>
+    <string name="textoTag">Pon a parte de atrás do teléfono sobre a etiqueta para escribir</string>
+    <string name="textoTag2">Pon a parte de atrás do teléfono sobre a etiqueta para leer</string>
+ 	<string name="error_notag">Erro non se atopou o tag</string>
+    <string name="ok_write">Se rexistrou correctamente no tag</string>
+    <string name="error_write">Produciuse un erro durante o rexistrado</string>
+    <string name="ok_detected">Se detectou correctamente o tag</string>  
+    <string name="leertag">Retorno</string>
+    <string name="borrartag">Eliminar</string>  
+    <string name="nombre">Nome: </string>  
+    <string name="descripcion">Descrición: </string>  
+    <string name="NoConfig">Non hai configuración</string> 
+    <string name="wifi">Wifi</string>
+    <string name="datos">Datos</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="modoavion">Modo Avión</string>
+    <string name="activar">Activar</string>
+    <string name="desactivar">Desactivar</string>
+    <string name="conmutar">Conmutar</string>
+    <string name="nonfc">Este terminal non ten a tecnoloxía NFC!</string>
+    <string name="offnfc">O NFC esta desactivado!</string>
+    <string name="leotag">Ler contido: </string>  
+    <string name="guardokk">A configuración foi gardada correctamente</string>
+    <string name="borrarokk">A configuración foi borrada correctamente</string>
+    <string name="editokk">A configuración foi modificado con éxito</string>  
+    <string name="nomvacio">O campo nome non pode estar baleiro!</string>
+    <string name="nomexis">Nome existente! </string>
+    <string name="editar">Editar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="ejecutar">Executar</string>
+    <string name="grabartag">Rexistro Tag</string>
+    <string name="MenuConf">Configuración</string>
+    <string name="MenuAcerca">Acerca de...</string>
+    <string name="config">Configuración </string>
+    <string name="resavion">O Modo Avión se desactivará cando NFC esté activado. O ejecutar o Modo Avion se desactivara NFC!</string>
+   	<string name="importan">Importante </string>
+    <string name="acercaDetext">Este programa foi desenvolvido como un proxecto final de carreira
+         á Universidade de Vigo - Campus de Ourense, por Eloy Rodríguez González.</string>  
+    
+</resources>

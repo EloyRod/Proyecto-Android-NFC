@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gestion de CPM</string>
+    <string name="nuevaconf">Add</string>
+    <string name="guardartag">Mapping</string>
+    <string name="guardartag2">Save</string>
+    <string name="escribir">Write</string>
+    <string name="siguiente">Next</string>
+    <string name="borrar">Delete</string>
+    <string name="volver">Return</string>
+    <string name="textoTag">Put the back of the phone over the tag to write</string>
+    <string name="textoTag2">Put the back of the phone over the tag to read</string>
+ 	<string name="error_notag">Error not found tag</string>
+    <string name="ok_write">He successfully keep the tag</string>
+    <string name="error_write">An error occurred during the recorded</string>
+    <string name="ok_detected">It correctly detected the tag</string>  
+    <string name="leertag">Return</string>
+    <string name="borrartag">Delete</string>  
+    <string name="nombre">Name: </string>  
+    <string name="descripcion">Description: </string>  
+    <string name="NoConfig">No configurations</string> 
+    <string name="wifi">Wifi</string>
+    <string name="datos">Data</string>
+    <string name="bluetooth">Bluetooth</string>
+    <string name="modoavion">Airplane Mode</string>
+    <string name="activar">Activate</string>
+    <string name="desactivar">Deactivate</string>
+    <string name="conmutar">Commute</string>
+    <string name="nonfc">This mobile has no NFC!</string>
+    <string name="offnfc">The NFC is disabled!</string>
+    <string name="leotag">Read content:</string>  
+    <string name="guardokk">The configuration was saved successfully</string>
+    <string name="borrarokk">The configuration was delete successfully</string>
+    <string name="editokk">The configuration was modified successfully </string>  
+    <string name="nomvacio">The Field Name can not be empty!</string>
+    <string name="nomexis">Existing name!</string>
+    <string name="editar">Edit</string>
+    <string name="eliminar">Remove</string>
+    <string name="ejecutar">Run</string>
+    <string name="grabartag">Tag record</string>
+    <string name="config">configuration </string>
+    <string name="MenuConf">Settings</string>
+    <string name="MenuAcerca">About...</string>
+     <string name="resavion">Airplane Mode turns off when NFC is enabled. Running the Avion mode will deactivate NFC!</string>
+   	<string name="importan">Important </string>
+    <string name="acercaDetext">This program has been developed as a final year project
+         for the University of Vigo - Ourense Campus, by Eloy Rodríguez González.</string>  
+    
+</resources>

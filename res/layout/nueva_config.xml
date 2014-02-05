@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/degradado" 
+    android:padding="20px"
+    android:layout_weight="1">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize ="20sp"
+        android:text="@string/nombre" />
+
+    <EditText
+        android:id="@+id/nombreConfig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:maxLength="25">
+
+        
+    </EditText>
+    
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:textSize ="20sp"
+        android:text="@string/descripcion" />
+
+    <EditText
+        android:id="@+id/descripcionConfig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:maxLength="40"/>
+   
+    
+       
+  <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:layout_gravity="center_horizontal"
+    
+    android:layout_weight="3">
+    
+      
+        <TextView
+	        android:id="@+id/text1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20sp"
+	        android:textSize ="22sp"
+	        android:text="@string/caracteristica" />
+        
+        <TextView
+	        android:id="@+id/text1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20sp"
+	        android:textSize ="22sp"
+	        android:text="@string/acciones" />
+      
+      </LinearLayout>
+      
+ 
+  <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+    android:layout_weight="2">
+        
+  <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    android:layout_weight="2">
+    
+      
+      <ImageView
+        android:layout_marginTop="22sp"
+        android:id="@+id/imagewifi"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:contentDescription="Descripción del contenido de la imagen"
+        android:src="@drawable/wifi2" />
+      
+       <ImageView
+        android:id="@+id/imageblue"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:contentDescription="Descripción del contenido de la imagen"
+        android:src="@drawable/blue_tooth" />
+       
+        <ImageView
+        android:id="@+id/imagedatos"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:contentDescription="Descripción del contenido de la imagen"
+        android:src="@drawable/datos" />
+        
+         <ImageView
+        android:id="@+id/imageViewmodo"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:contentDescription="Descripción del contenido de la imagen"
+        android:src="@drawable/modo_avion" />
+      
+    </LinearLayout>
+
+    
+     <RadioGroup
+	     android:id="@+id/radioGroup2"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content" 
+	     android:layout_marginTop="15dp"
+	     android:layout_gravity="center">
+	     
+         
+	    
+        <RadioButton
+            android:id="@+id/wifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            
+            android:text="@string/wifi" />
+
+        <RadioButton
+            android:id="@+id/bluethood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bluetooth"/>
+
+        <RadioButton
+            android:id="@+id/datos"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+       		android:text="@string/datos"/>    
+        
+         <RadioButton
+            android:id="@+id/modoavion"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+       		android:text="@string/modoavion"/>
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@id/radioGroup2"
+        android:layout_alignTop="@id/radioGroup2">
+         
+		
+        <RadioButton
+            android:id="@+id/activar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+           	android:text="@string/activar"
+           	/>
+
+        <RadioButton
+            android:id="@+id/desactivar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/desactivar"/>
+
+        <RadioButton
+            android:id="@+id/conmutar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:text="@string/conmutar"/>
+    </RadioGroup>
+    
+
+</LinearLayout>
+    
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:layout_gravity="end"
+    android:gravity="center"
+    >
+  
+  
+	  <Button
+	      android:id="@+id/botonconfig"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_marginTop="15dp"
+	      android:onClick="nuevaConfiguracion"
+	      android:text="@string/guardartag2" 
+	      android:drawableLeft="@drawable/grabar"/>
+	  
+	   <Button
+	      android:id="@+id/botonvolver"
+	      android:layout_width="wrap_content"
+	      android:layout_height="wrap_content"
+	      android:layout_marginTop="15dp"
+	      android:onClick="volverPrincipal"
+	      android:text="@string/volver"
+	      android:drawableLeft="@drawable/volver" />
+
+	</LinearLayout>
+
+</LinearLayout>

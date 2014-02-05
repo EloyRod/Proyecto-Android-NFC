@@ -1,0 +1,8 @@
+<ListView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   	android:id="@+id/ListView_opciones"
+   	android:layout_width="fill_parent"
+   	android:layout_height="wrap_content"
+   	android:textAlignment="center">
+</ListView>
+
